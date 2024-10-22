@@ -1,0 +1,91 @@
+.ask-button {
+  cursor: pointer;
+  transition: .3s all;
+  border-radius: var(--border-radius);
+
+  .ask-button-size {
+    padding: 0 15px;
+    font-size: 14px;
+    height: 32px;
+    // border-radius: var(--)
+  }
+
+  &.ask-button-disabled {
+    cursor: not-allowed;
+    border-color: var(--gray-four) !important;
+    color: var(--gray-four) !important;
+    background: var(--gray-three) !important;
+    box-shadow: none;
+  }
+
+  &.ask-button-size-default {
+    .ask-button-size();
+  }
+
+  &.ask-button-color-primary {
+    background: var(--ask-blue-six);
+    color: #fff;
+    border: none;
+    &:hover {
+      background: var(--ask-blue-four)
+    }
+
+    &:active {
+      background: var(--ask-blue-seven);
+    }
+  }
+
+  &.ask-button-color-default {
+    background: none;
+    color: var(--gray-eight);
+    border: 1px solid var(--gray-three);
+
+    &:hover {
+      border-color: var(--ask-blue-six)
+    }
+
+    &:active {
+      border-color: var(--ask-blue-seven)
+    }
+  }
+  &.ask-button-color-dashed {
+    background: none;
+    color: var(--gray-eight);
+    border: 1px dashed var(--gray-three);
+
+    &:hover {
+      border-color: var(--ask-blue-six)
+    }
+
+    &:active {
+      border-color: var(--ask-blue-seven)
+    }
+  }
+
+  &.ask-button-color-text {
+    background: none;
+    color: var(--gray-eight);
+    border: none;
+
+    &:hover {
+      color: var(--ask-blue-six)
+    }
+
+    &:active {
+      color: var(--ask-blue-seven)
+    }
+  }
+  &.ask-button-color-link {
+    background: none;
+    color: var(--ask-blue-six);
+    border: none;
+
+    &:hover {
+      color: var(--ask-blue-four)
+    }
+
+    &:active {
+      color: var(--ask-blue-seven)
+    }
+  }
+}
