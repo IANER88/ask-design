@@ -1,7 +1,7 @@
-import { JSX } from "soften-js/jsx-runtime"
+import { JSX } from '@soften/web'
 import './index.less'
 import classNames from "classnames";
-import { useSignal } from "soften-js";
+import { useSignal } from '@soften/web';
 type ButtonProps = {
 
   disabled?: boolean;

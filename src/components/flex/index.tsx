@@ -1,6 +1,6 @@
 import classNames from 'classnames'
 import './index.less'
-import { JSX } from 'soften-js/jsx-runtime';
+import { JSX } from '@soften/web';
 
 type FlexProps = {
   /**

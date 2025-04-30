@@ -1,5 +1,5 @@
 {
-  "name": "ask-design",
+  "name": "@ask-design/soften",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,7 +16,7 @@
     "classnames": "^2.5.1",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
-    "soften-js": "^1.1.3",
+    "@soften/web": "^1.1.3",
     "vite-plugin-soften": "^1.0.5"
   }
 }
